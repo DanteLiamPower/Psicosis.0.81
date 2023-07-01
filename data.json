@@ -1,0 +1,215 @@
+{
+    "intents":[
+        {
+            "tag":"saludo",
+            "patterns":[
+               " hola",
+               "buenos dias",
+               "buenas tardes",
+               "que onda?",
+               "wenas",
+               "buenas noches",
+               "holi",
+               "hello",
+               "que pex",
+               "hola bro",
+               "hola sis",
+               "hi"
+
+
+
+            ],
+            "responses":[
+                "muy buenos dias :D que haces?",
+                "muy buenos dias camarada, dime que hiciste hoy",
+                "hola , quisieras contarme que hiciste?"
+                
+                
+            ]
+        },
+        {
+            "tag":"valor fun",
+            "patterns":[
+               "estoy feliz",
+               "estoy emocionado",
+               "me encuentro bien",
+               "estoy relajado ",
+               "estoy exitado",
+               "estoy tranquilo"
+            ],
+            "responses":[
+                "por que razon te encuentras euforico mi estimado?"
+                
+            ]
+        },    
+        {
+            "tag":"valor sad",
+            "patterns":[
+               "estoy triste",
+               "sad",
+               "toy triste",
+               "quiero morirme",
+               "no me encuentro bien",
+               "me siento vacio",
+               "estoy con ganas de morirme",
+               "no puedo contartelo",
+               "no puedo mas",
+               "quiero llorar",
+               "quiero dejar de existir",
+               "quiero ahogarme",
+               "quiero dejar de sentir dolor"
+            ],
+            "responses":[
+                "por que te sientes asi? quien te hace sentirte asi ?",
+                "siento mucho que estes asi.... , quien es el responsable de tus malestares? "
+            ]
+        },
+        {
+            "tag":"valor fury",
+            "patterns":[
+               "estoy molesto",
+               "quiero golpear a alguien",
+               "estoy molesto con alguien",
+               "tengo mucha ira acumulada",
+               "quiero destrozar algo",
+               "quiero romper algo",
+               "quiero patear a alguien",
+               "quiero justicia",
+               "estoy enojado",
+               "quiero desquitarme con algo",
+               "odio estar con vida",
+               "odio a mis compañeros",
+               "odio a mis padres",
+               "odio a dios",
+               "maldita sea",
+               "maldigo a "
+            ],
+            "responses":[
+                "vale necesito que primero vayas y te consigas un vaso con agua ,bien hecho, ahora dime¿ que sucedio?",
+                "inhala y exhala unos 10 segundos, ahora cuentame ¿que sucedio?"
+            ]
+        },
+        {
+            "tag":"valor aggresion",
+            "patterns":[
+               "me hace mucho daño",
+               "no deja de molestarme",
+               "quiero ser libre de ",
+               "quiero que deje de hacerme eso",
+               "ya quiero que me haga eso",
+               "lo quiero fuera de mi vida"
+            ],
+            "responses":[
+                "dejara de hacerlo si le pones un alto",
+                "quiero que pienses en ti y pongas un alto a esa persona ",
+                "busca a alguien con la autoridad suficiente para que deje de hacerte esto"
+            ]
+        },
+        {
+            "tag":"valor fear",
+            "patterns":[
+               "tengo miedo",
+               "no creo que pueda",
+               "no lo se",
+               "no se si pueda hacerlo",
+               "no tengo la capacidad de hacerlo",
+               "no puedo",
+               "no se si pueda"
+            ],
+            "responses":[
+                "animos, se queda mucho miedo , pero no encotraras tu meta si no das el primer paso ."
+                
+            ]
+        },
+        {
+            "tag":"valor addiction",
+            "patterns":[
+               "fumo",
+               "bebo ",
+               "uso drogas",
+               "me meto sustancias ilegales"
+            ],
+            "responses":[
+                "por que razon consumes eso?"
+            ]
+        },  
+        {
+            "tag":"valor hallucination",
+            "patterns":[
+               "veo cosas que nadie ve",
+               "alucine con sombras"
+            ],
+            "responses":[
+               
+                "que cosas has visto?",
+                "cada cuanto los has visto"
+            ]
+        },
+        {
+            "tag":"valor bored",
+            "patterns":[
+               "estoy aburrido",
+               "nah para que hacerlo",
+               "me da flojera",
+               "no quiero"
+            ],
+            "responses":[
+                "ser ocioso o procastinar te hace perder cosas valiosas "
+            ]
+        },
+        {
+            "tag":"valor question",
+            "patterns":[
+               "como que?",
+               "respondeme",
+               "quiero una respuesta"
+            ],
+            "responses":[
+                "no lo se , pero se que tu si lo sabes",
+                "para que hacerlo si se que tu lo sabes"
+            ]
+        },
+        {
+            "tag":"valor yes",
+            "patterns":[
+               "si",
+               "claro",
+               "me parece bien",
+               "por supuesto",
+               "comprendo"
+            ],
+            "responses":[
+                "Esa es la actitud."
+                
+            ]
+        },
+        {
+            "tag":"negacion",
+            "patterns":[
+               "no",
+               " no es cierto",
+               "dije que no",
+               "negativo",
+               "no es asi"
+               
+            ],
+            "responses":[
+                "Piensalo con calma una vez mas.",
+                "Si se lo prguntas a alguien mas veras que tengo la razon ",
+                "No estas pensando muy claro, respira un poco"
+            ]
+        },
+        {
+            "tag":"valor persona",
+            "patterns":[
+               "tu creador",
+               "quien te diseño?",
+               "team zorro"
+            ],
+            "responses":[
+                "he sido creado por el tem zorros"
+               
+            ]
+        }
+    ]
+}
